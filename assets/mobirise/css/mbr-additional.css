@@ -682,13 +682,13 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-teL0D3H6yJ {
-  background-color: #ffffff;
+.cid-teQ7dGv13M {
+  background-image: url("../../../assets/images/img-20191014-wa0036-1280x960.jpg");
 }
-.cid-teL0D3H6yJ .mbr-fallback-image.disabled {
+.cid-teQ7dGv13M .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-teL0D3H6yJ .mbr-fallback-image {
+.cid-teQ7dGv13M .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -697,14 +697,17 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-teL0D3H6yJ .image-wrap img {
-  width: 100%;
+.cid-teQ7dGv13M .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-teQ7dGv13M .image-wrapper {
+    padding: 1rem;
+  }
 }
 @media (min-width: 992px) {
-  .cid-teL0D3H6yJ .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 40%;
+  .cid-teQ7dGv13M .text-wrapper {
+    padding: 0 2rem;
   }
 }
 .cid-teKOxv6cin {
@@ -817,7 +820,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(228, 63, 63, 0.7);
+  background: rgba(228, 63, 63, 0.9);
 }
 .cid-teKOxv6cin .navbar.opened {
   transition: all 0.3s;
@@ -1140,7 +1143,7 @@ a {
 .cid-teL0qsrNdp .mbr-iconfont {
   display: block;
   font-size: 5rem;
-  color: #6592e6;
+  color: #ff6666;
   margin-bottom: 2rem;
 }
 .cid-teL0qsrNdp .card-wrapper {
@@ -1148,6 +1151,44 @@ a {
 }
 .cid-teL0qsrNdp .row {
   justify-content: center;
+}
+.cid-tfOJ0hZew5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-tfOJ0hZew5 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tfOJ0hZew5 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tfOJ0hZew5 ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+.cid-tfOJ0hZew5 li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cid-tfOJ0hZew5 ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #6592e6;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+}
+.cid-tfOJ0hZew5 H3 {
+  text-align: center;
 }
 .cid-teL6o6IOk5 {
   padding-top: 2rem;
@@ -1407,6 +1448,12 @@ a {
   .cid-teL3taShJl .carousel-indicators {
     display: none !important;
   }
+}
+.cid-teL3taShJl H5 {
+  color: #4479d9;
+}
+.cid-teL3taShJl P {
+  color: #000000;
 }
 .cid-teL49ldXKI {
   padding-top: 4rem;
