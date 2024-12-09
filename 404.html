@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Not Found</title>
+</head>
+<body>
+    <script>
+        // Redirect unknown paths to index.html with a hash-based fallback
+        const path = window.location.pathname;
+        window.location.replace(`/${window.location.search || ''}#${path}`);
+    </script>
+</body>
+</html>
